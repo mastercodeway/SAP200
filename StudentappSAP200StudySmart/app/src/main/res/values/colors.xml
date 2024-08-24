@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+
+    <color name = "PrimaryPurple">#1A1125</color>
+    <color name = "Secondary">#B23B98</color>
+    <color name="Lighterpurple">#5B04BC</color>
+    <color name="textColor">#FFFFFF</color>
+    <color name="jade">#00A86B</color>
+
+
+    <color name="primaryBlack">#121212</color>
+    <color name="secondarygrey">#1D1D1D</color>
+    </resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PrimaryPurple"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/Lighterpurple"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginBottom="5dp"
+                android:text="Skapa tråd"
+                android:textColor="@color/textColor"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/titleEdtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="8dp"
+        android:text="Titel"
+        android:textColor="@color/textColor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextPostTitel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/roundededittext"
+        android:backgroundTint="@color/textColor"
+        android:ems="17"
+        android:inputType="text"
+        android:padding="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:text="Ditt inlägg"
+        android:textColor="@color/textColor"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextPostDescription"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/roundededittext"
+        android:backgroundTint="@color/textColor"
+        android:ems="17"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:padding="20dp" />
+    />
+
+    <Button
+        android:id="@+id/addPostButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="@color/Lighterpurple"
+        android:text="Lägg till"
+        android:textSize="20dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/createThreadBnv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/textColor"
+        app:backgroundTint="@color/Lighterpurple"
+
+        app:itemIconSize="36dp"
+        app:itemIconTint="@color/textColor"
+        app:labelVisibilityMode="unlabeled"
+
+        app:menu="@menu/bottom_menu" />
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">StudySmartSAP200</string>
+    <string name="username">Användarnamn</string>
+    <string name="password">Lösenord</string>
+    <string name="register">Registrera</string>
+    <string name="forgotten_password">Glömt lösenord</string>
+    <string name="Login_btn">Logga in</string>
+    <string name="registerMail">Email</string>
+    <string name="checkIfAlreadyAccount">Har du redan ett konto?</string>
+    <string name="title_activity_login2">LoginActivity2</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="homeScreenSchema">Schemaplanerare</string>
+    <string name="homeScreenForum">Forum</string>
+    <string name="homeScreenEducationMaterial">Utbildning</string>
+    <string name="homeScreenQuiz">Quiz</string>
+    <string name="homeScreenWelcome">Välkommen</string>
+    <string name="ForumCategoryTitle">Forum kategori</string>
+    <string name="search">Sök</string>
+</resources>

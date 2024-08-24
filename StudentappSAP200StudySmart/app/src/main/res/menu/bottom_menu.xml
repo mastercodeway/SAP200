@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notifications_fill0_wght400_grad0_opsz24"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/backArrow"
+        android:icon="@drawable/baseline_arrow_back_24"
+        android:title="Back arrow" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile_1341_svgrepo_com"
+        android:title="Profile" />
+</menu>
